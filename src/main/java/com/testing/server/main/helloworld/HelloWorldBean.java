@@ -1,12 +1,11 @@
-package com.testing.server.main;
+package com.testing.server.main.helloworld;
 
 import lombok.Getter;
 import lombok.Setter;
 
 public class HelloWorldBean {
-  @Getter
-  @Setter
-  public String message;
+  @Getter @Setter public String message;
+
   public HelloWorldBean(String message) {
     this.message = message;
   }
